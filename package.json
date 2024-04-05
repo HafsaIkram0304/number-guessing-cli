@@ -1,0 +1,22 @@
+{
+  "name": "hafsaikram-cli-guessing-gamecls",
+  "version": "2.0.0",
+  "description": "This is my second project cli based number guessing game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public" 
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  }
+}
