@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
+import { forEachLeadingCommentRange } from "typescript";
 
 //1) computer will generateuserGuessedNumber",
 
@@ -8,7 +9,11 @@ import inquirer from "inquirer";
 
 //3) compare user input with computer generated number and show result
 
-const randomNumber = 13;
+
+//const randomNumber = 13;
+const randomNumber = Math.floor(Math.random()*6+1);
+//const randomNumber = Math.random()*6+1;
+//console.log(randomNumber);
 
 const answers = await inquirer.prompt([
     {

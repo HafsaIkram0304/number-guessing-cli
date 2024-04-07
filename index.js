@@ -3,7 +3,10 @@ import inquirer from "inquirer";
 //1) computer will generateuserGuessedNumber",
 //2) User input for guessing number
 //3) compare user input with computer generated number and show result
-const randomNumber = 13;
+//const randomNumber = 13;
+const randomNumber = Math.floor(Math.random() * 6 + 1);
+//const randomNumber = Math.random()*6+1;
+//console.log(randomNumber);
 const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
