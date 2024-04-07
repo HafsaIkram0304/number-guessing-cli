@@ -20,3 +20,6 @@ if (answers.userGuessedNumber === randomNumber) {
 else {
     console.log("you guessd wrong number");
 }
+;
+console.log("Hafsa");
+console.log("Ikram");

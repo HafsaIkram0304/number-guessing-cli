@@ -27,5 +27,8 @@ if(answers.userGuessedNumber === randomNumber){
     console.log("congtratulation! you guess a right number");
 }else{
     console.log("you guessd wrong number");
-}
+};
+
+console.log("Hafsa");
+console.log("Ikram");
 
