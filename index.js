@@ -21,5 +21,5 @@ else {
     console.log("you guessd wrong number");
 }
 ;
-console.log("Hafsa");
-console.log("Ikram");
+//console.log("Hafsa");
+//console.log("Ikram");
